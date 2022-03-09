@@ -68,3 +68,4 @@ cron.schedule(process.env.CRON, async function () {
     console.log(exp);
   }
 });
+app.listen(process.env.PORT)
